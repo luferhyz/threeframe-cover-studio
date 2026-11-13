@@ -1,5 +1,7 @@
 # ThreeFrame · Cover Studio
 
+[Open the online app](https://luferhyz.github.io/threeframe-cover-studio/) · [GitHub repository](https://github.com/luferhyz/threeframe-cover-studio)
+
 Turn portrait videos and images into a landscape cover, entirely in your browser. No installation, account, build step, or media upload is required.
 
 The interface opens in **English** by default. Use the language menu in the header to switch to **简体中文**. Your browser remembers the preference when local storage is available. Switching languages preserves imported media, panel order, crop positions, and your title. Native video-player controls and download dialogs follow your browser or operating-system language.
@@ -53,4 +55,4 @@ See GitHub's official instructions for [publishing sources](https://docs.github.
 
 ## Verification
 
-JavaScript syntax and application logic have been checked with simulated DOM and media events. Real-browser visual rendering and codec behavior still need verification before public release.
+JavaScript syntax and application logic have been checked with simulated DOM and media events. The published app has also been checked in a real browser for English / Chinese switching, 4:3 preview, demo rendering, H.264 MP4 automatic frame selection, timeline seeking, manual capture, and PNG download. The downloaded PNG was verified as 1600×1200. Other codecs, devices, and browser versions may behave differently.
