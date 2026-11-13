@@ -1,0 +1,10 @@
+# Keep personal media and generated downloads out of the source repository.
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.m4v
+*.zip
+node_modules/
+.DS_Store
+Thumbs.db
